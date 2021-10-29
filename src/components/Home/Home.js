@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import bannerPic from '../../Images/banner1.jpg'
+import Services from '../Services/Services';
 import './Home.css'
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
                 <p>We are providing medicare lab since 2012. Customers are happy with our services! <br /> Feel free to visit us. </p>
                 <p>Find Our Services here <Link to='/services'>Services</Link> </p>
             </div>
+            <Services></Services>
             <div className='text-center pb-4 pt-3'>
                 <h2 className='py-3'>Why Customer <span className='text-warning'> Choose Us ? </span></h2>
                 <div className='btn-list col-md-12'>

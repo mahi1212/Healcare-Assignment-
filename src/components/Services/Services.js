@@ -14,7 +14,7 @@ const Services = () => {
     return (
         <div>
             <div className='pt-5 pb-4 text-uppercase text-warning text-center'>
-                <h2 className='mt-5 pb-2 border '>Our Services</h2>
+                <h2 className='mt-4 pb-2 border '>Our Services</h2>
             </div>
             <Row xs={1} md={3} className="g-4 px-sm-5">
                 {
