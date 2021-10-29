@@ -21,7 +21,7 @@ const Header = () => {
                             <NavLink className='px-2 text-decoration-none text-white' activeClassName='border-bottom' to="/reviews">Reviews</NavLink>
                             <NavLink className='px-2 text-decoration-none text-white' activeClassName='border-bottom' to="/about">About Us</NavLink>
                             {user.email ?
-                                <NavLink onClick={logOut} className='px-2 text-decoration-none ' activeClassName='text-warning' to="/login">Logout</NavLink>
+                                <NavLink onClick={logOut} className='px-2 text-decoration-none ' activeClassName='text-warning' to="/login"><button style={{border: 'none', borderRadius: '10px'}}>Logout</button></NavLink>
                                 :<NavLink className='px-2 text-decoration-none text-primary' activeClassName='text-warning' to="/login">Login</NavLink>
                             }
 
