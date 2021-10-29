@@ -105,7 +105,7 @@ const Login = () => {
                     <p className='text-danger'>{error}</p>
                     <button type="submit" className="btn btn-primary my-3">{isLogin ? 'Login' : 'Register'}</button>
                 </form>
-
+                <p className='text-danger'>Please use google sign-in for better user experience</p>
                 <p className='text-secondary py-3'> ____________________ <sub>or</sub> ____________________</p>
                 <button className='btn btn-primary px-5 mx-auto' onClick={signInUsingGoogle}><span className='px-4'>Sign in using Google</span></button>
             </div>
